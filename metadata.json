@@ -1,0 +1,6 @@
+{
+  "name": "Hecho en Ags - Logística Colaborativa",
+  "description": "Plataforma de logística de última milla colaborativa, rutas compartidas y control de inventarios para marcas locales de Aguascalientes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

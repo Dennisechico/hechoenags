@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F6F7FB;
+    color: #0F172A;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Superpower inspired vibrant mesh gradients & glows */
+.gradient-mesh-orange {
+  background: radial-gradient(circle at 80% 20%, #FFA800 0%, #FF6A00 40%, #E11D48 100%);
+}
+
+.gradient-mesh-green {
+  background: radial-gradient(circle at 30% 30%, #A3E635 0%, #22C55E 45%, #0D9488 100%);
+}
+
+.gradient-mesh-rose {
+  background: radial-gradient(circle at 50% 50%, #FB7185 0%, #F43F5E 50%, #BE123C 100%);
+}
+
+.gradient-mesh-soft {
+  background: radial-gradient(circle at 10% 20%, rgba(254, 240, 138, 0.4) 0%, rgba(253, 230, 138, 0.2) 30%, transparent 70%);
+}
+
+/* Custom subtle scrollbars for light clean design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
